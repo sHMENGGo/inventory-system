@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+/* Tailwind v4 scans these files for class names. */
+@source "../../app/Views";
+@source "../../app/Helpers";

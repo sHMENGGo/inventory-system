@@ -1,0 +1,13 @@
+{
+    "name": "inventory-system",
+    "private": true,
+    "version": "1.0.0",
+    "scripts": {
+        "css:build": "tailwindcss -i ./resources/css/app.css -o ./public/css/app.css --minify",
+        "css:watch": "tailwindcss -i ./resources/css/app.css -o ./public/css/app.css --watch"
+    },
+    "devDependencies": {
+        "@tailwindcss/cli": "^4.3.5",
+        "tailwindcss": "^4.3.5"
+    }
+}
